@@ -1,0 +1,6 @@
+version: "3"
+
+services:
+  plex:
+    image: linuxserver/plex
+    env_file: .env
